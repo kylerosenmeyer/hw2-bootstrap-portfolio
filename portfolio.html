@@ -5,33 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../hw2-bootstrap-portfolio/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="../hw2-bootstrap-portfolio/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     
 </head>
 <body>
-    
-     <!--Nav Bar Section-->
-     <nav class="navbar  navbar-light" style="background-color: #ffffff">
-            <!-- Navbar content -->
-            <a class="navbar-brand">Kyle Rosenmeyer</a>
-                <ul class="nav nav-tabs|pills" id="navId">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.scapesgallery.com">Shop</a>
-                    </li>
-                </ul>
-            <div id="tealborder-top">
+
+    <!--Nav Bar Section-->
+    <nav class="navbar  navbar-light" style="background-color: #ffffff">
+        <!-- Navbar content -->
+        <a class="nav-brand"><p id="header">Kyle Rosenmeyer</p></a>
+        
+            <ul class="nav nav-tabs|pills" id="navId">
+                <li class="nav-item">
+                <a class="nav-link" href="../hw2-bootstrap-portfolio/index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../hw2-bootstrap-portfolio/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.scapesgallery.com">Shop</a>
+                </li>
+            </ul>
+        <div id="tealborder-top">
+        </div>
+    </nav>
+
+    <!-- Content Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Image Gallery</h2>
+                <div id="gray-border">
+                </div>
             </div>
-        </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../hw2-bootstrap-portfolio/assets/images/baldwin-park.jpg" class="img-fluid" alt="Baldwin Park">
+                <div class="desc">Baldwin Park</div>
+                <img src="../hw2-bootstrap-portfolio/assets/images/crooked-creek.jpg" class="img-fluid" alt="Crooked Creek">
+                <div class="desc">Crooked Creek</div>
+                <img src="../hw2-bootstrap-portfolio/assets/images/wetland-forest.jpg" class="img-fluid" alt="Wetland Forest">
+                <div class="desc">Wetland Forest</div>
+                <img src="../hw2-bootstrap-portfolio/assets/images/balloon-city.jpg" class="img-fluid" alt="Balloon City">
+                <div class="desc">Balloon City</div>
+                <img src="../hw2-bootstrap-portfolio/assets/images/alice-reflects.jpg" class="img-fluid" alt="Alice Reflects">
+                <div class="desc">Alice Reflects</div>
+            </div>
+            <div class="col-md-6">
+                    <img src="../hw2-bootstrap-portfolio/assets/images/enchanted-evening.jpg" class="img-fluid" alt="Echanted Evening">
+                    <div class="desc">Echanted Evening</div>
+                    <img src="../hw2-bootstrap-portfolio/assets/images/quickly-egret.jpg" class="img-fluid" alt="Quickly Egret">
+                    <div class="desc">Quickly Egret</div>
+                    <img src="../hw2-bootstrap-portfolio/assets/images/lost-river-mountains.jpg" class="img-fluid" alt="Lost River Mountains">
+                    <div class="desc">Lost River Mountains</div>
+                    <img src="../hw2-bootstrap-portfolio/assets/images/cool-eclipse.jpg" class="img-fluid" alt="Cool Eclipse">
+                    <div class="desc">Cool Eclipse</div>
+                    <img src="../hw2-bootstrap-portfolio/assets/images/eola-summer-solstice.jpg" class="img-fluid" alt="Eola Summer Solstice">
+                    <div class="desc">Eola Summer Solstice</div>
+                    <img src="../hw2-bootstrap-portfolio/assets/images/starry-wetlands.jpg" class="img-fluid" alt="Starry Wetlands">
+                    <div class="desc">Starry Wetlands</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div id="tealborder-bottom">
+        </div>
+        <br>
+        <p></p>&copy; Copyright 2018 Rosenmedia</p>
+        <br>
+    </footer>
+    
 </body>
 </html>

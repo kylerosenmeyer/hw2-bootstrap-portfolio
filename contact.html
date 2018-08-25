@@ -5,34 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../hw2-bootstrap-portfolio/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="../hw2-bootstrap-portfolio/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     
 </head>
 <body>
 
-     <!--Nav Bar Section-->
-     <nav class="navbar  navbar-light" style="background-color: #ffffff">
-            <!-- Navbar content -->
-            <a class="navbar-brand">Kyle Rosenmeyer</a>
-                <ul class="nav nav-tabs|pills" id="navId">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="../hw2-bootstrap-portfolio/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.scapesgallery.com">Shop</a>
-                    </li>
-                </ul>
-            <div id="tealborder-top">
+    <!--Nav Bar Section-->
+    <nav class="navbar  navbar-light" style="background-color: #ffffff">
+        <!-- Navbar content -->
+        <a class="nav-brand"><p id="header">Kyle Rosenmeyer</p></a>
+        
+            <ul class="nav nav-tabs|pills" id="navId">
+                <li class="nav-item">
+                <a class="nav-link" href="../hw2-bootstrap-portfolio/index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="../hw2-bootstrap-portfolio/contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.scapesgallery.com">Shop</a>
+                </li>
+            </ul>
+        <div id="tealborder-top">
+        </div>
+    </nav>
+
+    <!-- Content Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Submit Custom Print Requests and General Inquiries</h2>
+                <div id="gray-border">
+                </div>
             </div>
-        </nav>
+        </div>
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Name">
+                    <small id="nameHelp" class="form-text text-muted">Enter you First and Last name.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div id="tealborder-bottom">
+        </div>
+        <br>
+        <p></p>&copy; Copyright 2018 Rosenmedia</p>
+        <br>
+    </footer>
     
 </body>
 </html>
