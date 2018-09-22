@@ -8,45 +8,68 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/animation.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     
 </head>
 <body>
 
     <!--Nav Bar Section-->
-    <nav class="navbar  navbar-light" style="background-color: #ffffff">
-        <!-- Navbar content -->
-        <a class="nav-brand"><p id="header">Kyle Rosenmeyer</p></a>
-        
-            <ul class="nav nav-tabs|pills" id="navId">
-                <li class="nav-item active">
-                <a class="nav-link" href="../hw2-bootstrap-portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="../hw2-bootstrap-portfolio/contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.scapesgallery.com">Shop</a>
-                </li>
-            </ul>
-        <div id="tealborder-top">
+    <nav class="navigation container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-brand">
+                <!-- Navbar content -->
+                
+                <p class="name" id="n1" >K</p>
+                <p class="name" id="n2" >y</p>
+                <p class="name" id="n3" >l</p>
+                <p class="name" id="n4" >e </p>
+                <p class="name" id="n5" >R</p>
+                <p class="name" id="n6" >o</p>
+                <p class="name" id="n7" >s</p>
+                <p class="name" id="n8" >e</p>
+                <p class="name" id="n9" >n</p>
+                <p class="name" id="n10" >m</p>
+                <p class="name" id="n11" >e</p>
+                <p class="name" id="n12" >y</p>
+                <p class="name" id="n13" >e</p>
+                <p class="name" id="n14" >r</p>
+                
+                <h1 id="design">Design</h1>
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-tabs|pills" id="navId">
+                    <li class="nav-item active">
+                    <a class="nav-link" id="nav1" href="../hw2-bootstrap-portfolio/index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="nav2" href="../hw2-bootstrap-portfolio/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="nav3" href="../hw2-bootstrap-portfolio/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav4" href="https://www.scapesgallery.com">Shop</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
+
     <!-- Content Section-->
-    <div class="container">
+    <main class="main container">
         <div class="row">
-            <div class="col">
-                <h2>About</h2>
-                <div id="gray-border">
-                </div>
+            <div class="col container-title">
+                <h2>A Little Bit About Me</h2>
+                <div id="gray-border"></div>
+                <h4> Scroll Down.</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img class="sub-content" src="../hw2-bootstrap-portfolio/assets/images/DSC_6914.jpg">
+                <img class="img-fluid" src="../hw2-bootstrap-portfolio/assets/images/DSC_6914.jpg">
             </div>
             <div class="col-md-6">
                 <p class="sub-content">Kyle Rosenmeyer has been an active photographer for 2 years, focused on creating artisic landscapes and cityscapes for home decoration. Kyle has traveled thousands of miles by car, boat, plane, train, and on foot with a camera, from central Alberta to central Florida. 
@@ -59,16 +82,14 @@
                 </p>
             </div>
         </div>
-    </div>
+    </main>
 
     <!--Footer-->
     <footer>
-        <div id="tealborder-bottom">
-        </div>
-        <br>
-        <p></p>&copy; Copyright 2018 Kyle Rosenmeyer</p>
-        <br>
+        <p class="footer"></p>&copy; Copyright 2018 Kyle Rosenmeyer</p>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../hw2-bootstrap-portfolio/assets/javascript/logic.js"></script>
 </body>
 </html>
