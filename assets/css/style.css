@@ -85,7 +85,7 @@ form {
 /*Link Styling*/
 
 .nav-link:link {
-    color: whitesmoke;
+    color: rgb(55, 55, 55);
     text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ main {
 .container-title {
     text-align: center;
     font-size: 60px;
-    padding: 20% 10% 35%;
+    padding: 20% 10% 37%;
 }
 
 
@@ -123,6 +123,18 @@ main {
     width: 90%;
     margin: 20px auto;
     background-color: whitesmoke;
+}
+
+.form-control {
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(45, 65, 130, 0);
+}
+
+.form-control:focus {
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(45, 65, 130, 0.8);
 }
 
 
@@ -153,11 +165,16 @@ main {
 }
 
 .desc {
-    padding: 15px;
+    padding: 15px 15px 5px;
     text-align: center;
     margin-top: 20x;
     margin-bottom: 5px;
     z-index: 2;
+    background-color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 5px solid rgba(45, 65, 130, 1.0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
     
 }
 
@@ -165,7 +182,7 @@ main {
 
 #title-border {
     background-image: linear-gradient(to right, rgba(45, 65, 130, 0.8), rgba(45, 130, 59, 0.8));
-    width: 50%;
+    width: 0%;
     height: 6px;
     margin: 0% 0% 0% 25%;
     border-radius: 3px;
