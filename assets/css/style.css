@@ -10,9 +10,9 @@ body {
 /*Set the styling for the footer and position to the bottom of the page*/
 footer {
     background-image: url('../images/dust_footer.jpg');
+    background-size: contain;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
     padding: 20px;
     border-top: 5px solid rgba(45, 65, 130, 0.8);
@@ -21,6 +21,7 @@ footer {
 /*Set the styling for the navigation and set it to the top of the page*/
 nav {
     background-image: url('../images/dust_head.jpg');
+    background-size: contain;
     position: fixed;
     top:0;
     z-index: 2;
@@ -100,8 +101,8 @@ form {
 main {
     max-width: 960px;
     padding: 20px;
-    background-color: whitesmoke;
-    margin: 40px auto;
+    /* background-color: whitesmoke; */
+    margin: 40px auto 150px;
 } 
 
 .container-title {
@@ -110,22 +111,18 @@ main {
     padding: 20% 10% 35%;
 }
 
-.main {
-    border-top: 5px solid rgba(45, 65, 130, 0.8);
-    border-bottom: 5px solid rgba(45, 65, 130, 0.8);
-    margin-bottom: 200px;
-}
-
 
 .sub-content {
     padding: 5% 0%;
     margin: 10px auto;
+    background-color: whitesmoke;
     width: 100%;
 }
 
 .form-group {
     width: 90%;
     margin: 20px auto;
+    background-color: whitesmoke;
 }
 
 
@@ -135,11 +132,13 @@ main {
     color: rgba(220, 220, 230, 1.0);
     margin-left: 5%;
     width: 100px;
+    border: 2px solid rgba(45, 65, 130, 0);
 } 
 
 .btn-primary:hover {
-    background-color: rgba(220, 220, 230, 1.0);
+    background-color: rgba(220, 220, 230, 0);
     color: rgba(45, 65, 130, 1.0);
+    border: 2px solid rgba(45, 65, 130, 0.8);
 }
 
 .btn-primary:focus {
@@ -164,10 +163,12 @@ main {
 
 /*ID Styling */
 
-#gray-border {
-    width: 100%;
+#title-border {
+    background-image: linear-gradient(to right, rgba(45, 65, 130, 0.8), rgba(45, 130, 59, 0.8));
+    width: 50%;
     height: 6px;
-    margin: 0px;
+    margin: 0% 0% 0% 25%;
+    border-radius: 3px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -200,12 +201,44 @@ main {
 
   .nav-item {
     text-align: center;
-    width: 21%;
-    padding: 10px 20px;
-    margin-top:10px;
+    width: 21.5%;
+    padding: 10px 2% 0px;
+    margin: 10px 0px -10px;
+  }  
+
+  .nav-item:first-child {
+      margin-left: 0px;
+      width: 17%
+  }
+
+  .nav-item:last-child {
+      margin-right: 0px;
+      width: 20%;
   }
 
   .nav-link {
-      margin: 10px 0px -20px;
+      margin: 0;
   }
+
+  .nav-link:active {
+    margin: 10px 0px -20px;
+}
+
+  .container-title {
+    text-align: center;
+    font-size: 60px;
+    padding: 40% 10% 60%;
+}
+
+#title-border {
+    margin: 0;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+    .col-brand {
+        font-size: 25px;
+    }
 }

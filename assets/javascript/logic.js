@@ -1,7 +1,7 @@
 
 
-ScrollReveal().reveal(".img-fluid, .desc, .sub-content, .form-group", {
-    delay: 1000,
+ScrollReveal().reveal(".img-fluid, .desc, .sub-content, .form-group, .btn-primary", {
+    delay: 500,
     duration: 4000
 })
 
