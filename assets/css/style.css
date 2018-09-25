@@ -249,7 +249,11 @@ main {
 
 #title-border {
     margin: 0;
-    width: 100%;
+    width: 0%;
+}
+
+.sub-content {
+    text-align: justify;
 }
 
 }

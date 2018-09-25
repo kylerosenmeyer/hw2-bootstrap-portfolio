@@ -25,87 +25,87 @@
 
 #n11 {
     animation-name: lastName;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n4 {
     animation-name: firstName;
-    animation-duration: 2.5s;
+    animation-duration: 0.9s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 
 #n8 {
     animation-name: lastName;
-    animation-duration: 3s;
+    animation-duration: 1.3s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n13 {
     animation-name: lastName;
-    animation-duration: 3.5s;
+    animation-duration: 1.9s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n3 {
     animation-name: firstName;
-    animation-duration: 4s;
+    animation-duration: 2.5s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n9 {
     animation-name: lastName;
-    animation-duration: 4.5s;
+    animation-duration: 3s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n7 {
     animation-name: lastName;
-    animation-duration: 5s;
+    animation-duration: 3.2s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n12 {
     animation-name: lastName;
-    animation-duration: 5.5s;
+    animation-duration: 4s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n2 {
     animation-name: firstName;
-    animation-duration: 6s;
+    animation-duration: 4.6s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n10 {
     animation-name: lastName;
-    animation-duration: 6.5s;
+    animation-duration: 5.1s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n6 {
     animation-name: lastName;
-    animation-duration: 7s;
+    animation-duration: 5.6s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n14 {
     animation-name: lastName;
-    animation-duration: 7.5s;
+    animation-duration: 6.5s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 #n1 {
     animation-name: firstName;
-    animation-duration: 8s;
+    animation-duration: 6.9s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
 
 #n5 {
     animation-name: lastName;
-    animation-duration: 8.5s;
+    animation-duration: 7s;
     animation-fill-mode: forward;
     margin-bottom: 0px;
 }
@@ -122,27 +122,27 @@
 
 #nav1 {
     animation-name: Nav;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-fill-mode: forward;
 }
 #nav2 {
     animation-name: Nav;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forward;
 }
 #nav3 {
     animation-name: Nav;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-fill-mode: forward;
 }
 #nav4 {
     animation-name: Nav;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forward;
 }
 
 nav {
     animation-name: NavBorder;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: forward;
 }

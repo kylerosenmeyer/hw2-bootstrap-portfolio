@@ -2,12 +2,12 @@
 
 ScrollReveal().reveal(".img-fluid, .desc, .sub-content, .form-group, .btn-primary", {
     delay: 500,
-    duration: 4000
+    duration: 2000
 })
 
 ScrollReveal().reveal(".container-title", {
     delay: 0,
-    duration: 4000
+    duration: 2000
 })
 
 ScrollReveal().reveal("#title-border", {
@@ -17,10 +17,27 @@ ScrollReveal().reveal("#title-border", {
 var lineExtend = function(id) {
     $(id).animate({
     width: "50%"
-    }, 2000)
+    }, 2800)
 }
 
-ScrollReveal().reveal("#title-border", {
-    afterReveal: lineExtend
-})
+var lineExtendmob = function(id) {
+    $(id).animate({
+    width: "100%"
+    }, 2800)
+}
+
+if ( window.innerHeight > window.innerWidth ) {
+
+    ScrollReveal().reveal("#title-border", {
+        afterReveal: lineExtendmob
+    })
+
+} else {
+
+    ScrollReveal().reveal("#title-border", {
+        afterReveal: lineExtend
+    })
+}
+
+
 
