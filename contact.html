@@ -59,7 +59,7 @@
 
 
     <!-- Content Section-->
-    <main class="main container">
+    <main class="main container contactForm">
         <div class="row">
             <div class="col container-title">
                 <h2>Reach out! Let's work together.</h2>
@@ -71,29 +71,45 @@
             <form>
                 <div class="form-group">
                     <label for="exampleInputName">Name</label>
-                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Name">
+                    <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter Name">
                     <small id="nameHelp" class="form-text text-muted">Enter you First and Last name.</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <label for="textAreaLabel">Message</label>
+                    <textarea class="form-control" id="textArea" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="contactSubmit">Submit</button>
             </form>
         </div>
     </main>
+
+    <section class="container thankYou">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="thankYouTitle">Thank You!</h2>
+                <p>Kyle will be in touch with you as soon as possible.</p>
+            </div>
+        </div>
+    </section>
 
     <!--Footer-->
     <footer>
         <p class="footer"></p>&copy; Copyright 2018 Kyle Rosenmeyer</p>
     </footer>
 
+    <!--Resources-->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+
+    <!--Local Javascript-->
     <script src="../hw2-bootstrap-portfolio/assets/javascript/logic.js"></script>
+    
+
+
 </body>
 </html>
